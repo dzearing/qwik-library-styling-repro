@@ -1,0 +1,14 @@
+{
+  "name": "qwik-library-styling-repro",
+  "version": "1.0.0",
+  "description": "Repros the library styling issue",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzearing/qwik-library-styling-repro.git"
+  },
+  "author": "",
+  "workspaces": [
+    "packages/*"
+  ]
+}
