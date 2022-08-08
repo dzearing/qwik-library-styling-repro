@@ -1,6 +1,8 @@
 # qwik-library-styling-repro
 
-This repo consists of a component library containing a `Counter` component which has a red background via module.css. Tracking in issue here: https://github.com/BuilderIO/qwik/issues/948
+This repo consists of a component library `test-library` containing a `Counter` component which has a red background via module.css, and an app `test-app` which consumes the library and renders the component. The Counter should appear red but doesn't, because qwik library styles aren't consumed by qwik apps. All built with latest qwik templates.
+
+Tracking in issue here: https://github.com/BuilderIO/qwik/issues/948
 
 If you yarn start inside of `test-library`, you will see the red `Counter`.
 
